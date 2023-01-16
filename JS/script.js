@@ -112,7 +112,7 @@ class Store {
         }
     }
     getAll(){
-        return this.#products;
+        return [...this.#products];
     }
     getByType(type){
         if (this.#productType.includes(type)) {
