@@ -121,6 +121,7 @@ class Store {
             });
         } else {
             console.error('ERROR!!! Trying to get incorrect type of product');
+            return '~!!!ERROR, here is incorrect DATA!!!~';
         }
     }
 }

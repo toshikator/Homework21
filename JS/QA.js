@@ -28,3 +28,4 @@ console.log('output testing ALL',testShop.getAll());
 console.log('output testing MILK',testShop.getByType('Milk'));
 console.log('output testing WINE',testShop.getByType('Wine'));
 console.log('output testing CHOCOLATE',testShop.getByType('Chocolate'));
+console.log('output testing ttt',testShop.getByType('Ccolate'));
